@@ -1,0 +1,87 @@
+body{
+    background-color: black;
+}
+#btnonoff {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+h2{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 25px;
+    left: 50px;
+    border: 2px;
+    color: white;
+    font-weight: 100;
+}
+br{
+    color: white;
+}
+#main{
+    position: absolute;
+    top:35%;
+    left: 45%;
+}
+#side3{
+    height: 250px;
+    width: 200px;
+    position: absolute;
+    transform: translateX(-30px) scale(1.5);
+    z-index: 99;
+    transition: all .5s;
+}
+#side2{
+    height: 250px;
+    width: 200px;
+    position: absolute;
+    transform: translateX(-285px);
+    z-index: 9;
+    transition: all .5s;
+}
+#side1{
+    height: 250px;
+    width: 200px;
+    position: absolute;
+    transform: translateX(-490px);
+    z-index: 9;
+    transition: all .5s;
+}
+#side4{
+    height: 250px;
+    width: 200px;
+    position: absolute;
+    transform: translateX(225px);
+    z-index: 9;
+    transition: all .5s;
+}
+#side5{
+    height: 250px;
+    width: 200px;
+    position: absolute;
+    transform: translateX(430px);
+    z-index: 9;
+    transition: all .5s;
+}
+#name{
+    position: absolute; 
+    right: -225px; 
+    top: -170px; 
+    height: 80px;
+    width: 300px;
+    z-index: 99;
+    transition: all .5s;
+}
+
