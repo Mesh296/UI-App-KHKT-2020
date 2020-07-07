@@ -12,7 +12,7 @@
   "author": "kevinhoang",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^1.8.8"
+    "electron": "^9.1.0"
   },
   "dependencies": {
     "electron-builder": "^21.2.0",
